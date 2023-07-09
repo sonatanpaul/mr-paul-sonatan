@@ -223,3 +223,40 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+
+.agency-footer{
+    height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding-right: 30;
+   padding-left: 30px;
+
+}
+
+.link-item{
+    list-style: none;
+    line-height: 1.8;
+}
+
+.social-links{
+    width: 500px
+}
+
+
+.copy-right{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 40px;
+   
+    }
+
+    .mrpaul{
+        width: 80%;
+        margin-left: 180px;
+        margin-bottom: 10px;
+    }
