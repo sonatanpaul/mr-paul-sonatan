@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-container{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.manu-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    
+}
+
+.manu-list li:hover{
+    color: blue;
+}
+
+.banner-container{
+    height: 100vh;
+    background-image: url("./image/background.jpg"),linear-gradient(rgb(129, 129, 140),rgb(63, 45, 42));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-name{
+    color: red;
+}
+
+.title-name{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.btn{
+    padding: 15px 25px;
+    border: none;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.bg-color{
+    background-color: orange;
+    margin-right: 25px;
+}
+
+.service-container{
+    background-image: url("./image/footer-bg.png"),linear-gradient(rgb(47, 37, 37),rgb(29, 26, 26));
+    height: 100vh;
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+    
+}
+
+.box{
+    padding: 50px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.service-description{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.box-part{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.author-img{
+    width: 70px;
+    border-radius: 35px;
+    height: 70px;
+}
+
+
+.author-container{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+   
+    
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+    
+}
+
+.small-text{
+    font-size: x-small;
+}
+
+.author-button{
+    margin-bottom: 30px;
+}
+
+.name-text{
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.servec-name{
+    margin-top: 20px;
+}
